@@ -13,5 +13,7 @@ class UtilsTest {
     void isAllPositiveTest() {
         Assertions.assertTrue(isAllPositiveNumbers(List.of("10", "12", "250")));
         Assertions.assertFalse(isAllPositiveNumbers(List.of("10", "11", "250")));
+        Assertions.assertFalse(isAllPositiveNumbers(List.of("10", "11.22", "250")));
+        Assertions.assertFalse(isAllPositiveNumbers(List.of("10", "ull", "250")));
     }
 }

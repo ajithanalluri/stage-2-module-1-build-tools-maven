@@ -1,9 +1,9 @@
-package org.example;
+package com.epam.utils;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.example.StringUtils.isPositiveNumber;
+import static com.epam.utils.StringUtils.isPositiveNumber;
 
 class StringUtilsTest {
 

@@ -1,4 +1,4 @@
-package org.example;
+package com.epam.demo;
 
 import java.util.List;
 import java.util.stream.Collectors;
